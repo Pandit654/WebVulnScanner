@@ -1,71 +1,97 @@
-# 🔍 Web Vulnerability Scanner
+# WebVulnScanner
 
-A powerful tool to detect vulnerabilities such as SQL Injection, Cross-Site Scripting (XSS), and open ports on websites.
+WebVulnScanner is a powerful tool designed to scan websites for security vulnerabilities, including SQL Injection, XSS (Cross-Site Scripting), and open ports.
 
 ## 🚀 Features
 
-✔ Crawls website links  
-✔ Detects SQL Injection vulnerabilities  
-✔ Detects XSS vulnerabilities  
-✔ Scans for open ports  
-✔ Saves results in **PDF, CSV, and JSON**  
+- ✅ Crawls website links
+- ✅ Detects **SQL Injection** vulnerabilities
+- ✅ Detects **XSS (Cross-Site Scripting)** vulnerabilities
+- ✅ Scans for **open ports**
+- ✅ Saves results in **PDF, CSV, and JSON** formats
+- ✅ Provides a **standalone executable** (no Python installation required)
 
----
+## 📌 Installation
 
-## 📥 Installation
-
-If you want to run the scanner from source, follow these steps:
+### If running from source:
 
 ```bash
+# Clone the repository
 git clone https://github.com/Pandit654/WebVulnScanner.git
 cd WebVulnScanner
+
+# Install dependencies
 pip install -r requirements.txt
 ```
 
+## 🚀 Usage
+
+This tool is available as a **standalone executable**, so no need to install Python or dependencies!
+
+### 1️⃣ Download the latest `.exe` file
+
+- Go to the [`dist`](https://github.com/Pandit654/WebVulnScanner/tree/main/dist) directory
+- Download the `.exe` file (e.g., `sample3.exe`)
+
+### 2️⃣ Run the scanner
+
+- Double-click the `.exe` file to launch the GUI.
+- Enter the target URL and start the scan.
+- View results in the output window.
+- Save results in PDF, CSV, or JSON format.
+
 ---
 
-## 📌 Usage
+## 🛑 Fix: If Microsoft Defender Blocks or Deletes the `.exe`
 
-This tool is a **standalone executable**, so you don't need to install Python or dependencies!
+Sometimes, Microsoft Defender may flag the `.exe` file as suspicious. If this happens:
 
-### 1️⃣ **Download the latest `.exe` file**
-- Go to the [`dist`](https://github.com/Pandit654/WebVulnScanner/tree/main/dist) directory.
-- Download the `.exe` file (e.g., `WebVulnScanner.exe`).
+1. **Restore the file from Quarantine**
 
-### 2️⃣ **Run the Scanner**
-- Open the `.exe` file and enter the target website URL.
-- Click **Start Scan** to begin the vulnerability scan.
-- View results directly in the application.
+   - Open *Windows Security* → *Virus & threat protection*
+   - Click on *Protection history*
+   - Locate *WebVulnScanner.exe* and click *Restore*
 
-### 3️⃣ **Save Scan Results**
-- You can save results in **PDF, CSV, or JSON** format for later analysis.
+2. **Allow the file through Defender**
+
+   - Open *Windows Security* → *Virus & threat protection*
+   - Click *Manage settings* under *Virus & threat protection settings*
+   - Scroll to *Exclusions* and click *Add or remove exclusions*
+   - Click *Add an exclusion* → *File*, then select `sample3.exe`
+
+3. **Run as Administrator**
+
+   - Right-click `sample3.exe`
+   - Select *Run as administrator*
 
 ---
 
 ## 📜 License
 
-This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
-
----
+This project is licensed under the [MIT License](LICENSE).
 
 ## 🤝 Contributing
 
-Contributions are welcome! If you’d like to improve this project:
-1. Fork the repository
-2. Create a new branch (`git checkout -b feature-branch`)
-3. Commit your changes (`git commit -m 'Add new feature'`)
-4. Push to the branch (`git push origin feature-branch`)
-5. Open a Pull Request
+Contributions are welcome! To contribute:
 
----
+- Fork this repository
+- Create a new branch (`git checkout -b feature-branch`)
+- Commit changes (`git commit -m 'Add new feature'`)
+- Push to your branch (`git push origin feature-branch`)
+- Open a Pull Request
 
-## ⚠ Disclaimer
+## ⚠️ Disclaimer
 
-This tool is intended for **educational and security research purposes only**. Unauthorized use of this tool against any website **without permission** is illegal.
-
----
+This tool is for educational and security testing purposes only. **Do not use it on websites without permission.** The developers are not responsible for any misuse.
 
 ## 📧 Contact
 
-For any questions or support, reach out via **[GitHub Issues](https://github.com/Pandit654/WebVulnScanner/issues)**.
+For any queries or issues, reach out via:
+
+- GitHub Issues: [Open an issue](https://github.com/Pandit654/WebVulnScanner/issues)
+- Email: [satyam6pandey@gmail.com](mailto\:satyam6pandey@gmail.com)
+
+---
+
+**Happy Scanning! 🔍**
 
