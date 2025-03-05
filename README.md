@@ -17,11 +17,3 @@ This is a lightweight web vulnerability scanner capable of detecting:
 git clone https://github.com/Pandit654/WebVulnScanner.git
 cd WebVulnScanner
 pip install -r requirements.txt
-🛠 Usage
-Run the scanner using:
-
-bash
-Copy
-Edit
-python scanner.py
-A GUI will open where you can enter a URL and start scanning.
