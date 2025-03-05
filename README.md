@@ -30,8 +30,7 @@ This tool is available as a **standalone executable**, so no need to install Pyt
 
 ### 1️⃣ Download the latest `.exe` file
 
-- Go to the [`dist`](https://github.com/Pandit654/WebVulnScanner/tree/main/dist) directory
-- Download the `.exe` file (e.g., `sample3.exe`)
+- Download the `.exe` file (e.g., `WebVulnScanner.exe`)
 
 ### 2️⃣ Run the scanner
 
@@ -57,11 +56,11 @@ Sometimes, Microsoft Defender may flag the `.exe` file as suspicious. If this ha
    - Open *Windows Security* → *Virus & threat protection*
    - Click *Manage settings* under *Virus & threat protection settings*
    - Scroll to *Exclusions* and click *Add or remove exclusions*
-   - Click *Add an exclusion* → *File*, then select `sample3.exe`
+   - Click *Add an exclusion* → *File*, then select `WebVulnScanner.exe`
 
 3. **Run as Administrator**
 
-   - Right-click `sample3.exe`
+   - Right-click `WebVulnScanner.exe`
    - Select *Run as administrator*
 
 ---
