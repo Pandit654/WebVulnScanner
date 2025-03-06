@@ -88,7 +88,7 @@ This tool is for educational and security testing purposes only. **Do not use it
 For any queries or issues, reach out via:
 
 - GitHub Issues: [Open an issue](https://github.com/Pandit654/WebVulnScanner/issues)
-- Email: [satyam6pandey@gmail.com](mailto\:satyam6pandey@gmail.com), [vikasmandal0712@gmail.com](mailto\:vikasmandal0712@gmail.com)
+- Email: [satyam6pandey@gmail.com](mailto\:satyam6pandey@gmail.com) , [vikasmandal0712@gmail.com](mailto\:vikasmandal0712@gmail.com)
 
 ---
 
